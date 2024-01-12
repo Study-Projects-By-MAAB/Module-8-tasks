@@ -105,3 +105,10 @@ p {
     margin-top: 10px;
     line-height: 30px;
 }
+
+@media screen and (max-width:640px) {
+    .main-container{
+        flex-direction: column;
+        width: fit-content;
+    }
+}
